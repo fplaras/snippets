@@ -10,7 +10,7 @@ const Landing = () =>
   import("@/pages/Landing/Landing.vue");
 
   let dashboardRoutes = {
-    path: "/home",
+    path: "/",
     component: SharedLayout,
     redirect:"/landing",
     name: "Home",
@@ -35,7 +35,7 @@ const Landing = () =>
         components: {default: Login}
       },
       {
-        path:"login",
+        path:"register",
         name:"Register",
         components: {default: Register}
       }
