@@ -7,11 +7,13 @@ import router from './routes/router';
 
 //Bootstrap
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/style.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/custom-style.css'
 import { VBTogglePlugin } from 'bootstrap-vue'
+
+//PWA
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
