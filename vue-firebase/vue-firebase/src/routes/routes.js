@@ -27,7 +27,7 @@ const Landing = () =>
     path: "/",
     component: AuthLayout,
     redirect:"/login",
-    name: "Home",
+    name: "Login",
     children:[
       {
         path:"login",
