@@ -17,7 +17,7 @@ import { VBTogglePlugin } from 'bootstrap-vue'
 import './registerServiceWorker'
 
 //store
-import store from "./store";
+import store from "./store/store";
 import firebase from "firebase/app";
 
 //firebase config

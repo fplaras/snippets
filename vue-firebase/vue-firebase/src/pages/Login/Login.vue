@@ -82,8 +82,8 @@ export default({
             .auth()
             .signInWithEmailAndPassword(this.inputEmailAddress, this.inputPassword)
             .then(response =>{
-               console.log(response.user);
-               console.log(firebase.auth().currentUser.getIdToken(true));
+              console.log('response: ' + response)
+               this.$router.replace({ name: "Landing" });
             })
             .catch(error =>{
                 this.error = error;
