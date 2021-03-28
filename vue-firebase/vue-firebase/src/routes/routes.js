@@ -13,7 +13,6 @@ const Landing = () =>
     path: "/",
     component: SharedLayout,
     redirect:"/landing",
-    name: "Home",
     children:[
       {
         path:"landing",
@@ -27,7 +26,6 @@ const Landing = () =>
     path: "/",
     component: AuthLayout,
     redirect:"/login",
-    name: "Login",
     children:[
       {
         path:"login",
